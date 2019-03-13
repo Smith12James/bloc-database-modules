@@ -1,0 +1,45 @@
+1.1: String
+1.2: integer
+1.3: date
+1.4: Float
+1.5: money however float would be more precise
+
+2: You should use databases when you need to make changes directly to the source code and text when you don't need to save the data later one.
+
+3: To me SQL is more like pseudo code. It's more like english than any other programming language is what I mean.
+
+4: Well the pieces fit by taking requests from one language and storing that information. Which is a query, you define each type of data, and then you can later call that database to get all that info pulled back up
+
+5: Table is everything put together that is how you define what info goes with in it. The column is specific information, so the ID, name, email, etc going downwards. The row is all that info in one line. so in one row you had the ID, the name, and the email. So it's essentially one whole piece of info where column is everything that is within ID, or name, or email. The value is how you describe what type of value will be inputted in which column. So email would be a string, where age would be an integer. It helps keep everything organized.
+
+6: String, integer, float
+
+7: Within the table 'payments' you are selecting the date and amount so everything with a date and payment will pull up. You then select just the amount from the table payments where the amount is greater than 500. And finally you are selecting everything from payments where the payee's name is the same as 'Mega Foods'
+
+8:
+**input**
+SELECT signup, email
+FROM users
+WHERE name = 'DeAndre Data';
+**output**
+datad@comcast.net, 2008-01-20
+**input**
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+**output**
+1
+**input**
+SELECT *
+FROM users
+WHERE userid = 4;
+**output**
+4,       'Brandy Boolean',    'bboolean@nasa.gov',            '1999-10-15'
+
+
+
+
+
+
+
+
